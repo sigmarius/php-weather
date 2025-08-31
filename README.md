@@ -10,19 +10,3 @@
 ## Licence
 
 MIT
-
-## Usage
-
-```
-use Sigmarius/PhpWeather/Weather;
-
-$weather = new Weather($apiKey);
-
-$data = $weather->location('Moscow')->get();
-
-// temperature by Ceslius Degrees
-$data->celsius();
-
-// temperature by Fahrenheit Degrees
-$data->fahrenheit();
-```
