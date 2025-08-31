@@ -1,6 +1,7 @@
 {
   "name": "sigmarius/php-weather",
   "description": "Package for gettin weather for any location",
+  "version":"1.0.0",
   "type": "library",
   "license": "MIT",
   "autoload": {
