@@ -1,0 +1,26 @@
+{
+  "name": "sigmarius/php-weather",
+  "description": "Package for gettin weather for any location",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Sigmarius\\PhpWeather\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Anastasya Mokeeva",
+      "email": "aamokeeva@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.3",
+    "guzzlehttp/guzzle": "^7.10",
+    "pragmarx/ia-arr": "^7.3"
+  },
+  "require-dev": {
+    "laravel/pint": "^1.24",
+    "larapack/dd": "^1.1"
+  }
+}
